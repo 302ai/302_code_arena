@@ -1,0 +1,135 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "github_hyperlink": {
+        "label": "GitHubリポジトリリンク"
+      },
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "コードアリーナ"
+    },
+    "tabs": {
+      "leaderboard": "ランキングリスト",
+      "modelPk": "モデルPK"
+    }
+  },
+  "leaderBoard": {
+    "appearances": "外観の数",
+    "creator": "クリエイター",
+    "name": "名前",
+    "rank": "ランキング",
+    "score": "スコア",
+    "winRate": "勝利率"
+  },
+  "modelPk": {
+    "description": "AIモデルはリアルタイムで競争して、誰がより良いコード機能を持っているかを確認します。",
+    "model_select": {
+      "noResultsFound": "モデルが見つかりません",
+      "random": "ランダム",
+      "searchModels": "モデルを検索..."
+    },
+    "pk_form": {
+      "error": {
+        "generate_failed": "コード生成が失敗しました、もう一度やり直してください",
+        "no_model": "LLMモデルがありません",
+        "no_prompt": "迅速な単語がありません",
+        "no_type": "生成されたコードタイプがありません"
+      },
+      "generate": "コード戦争",
+      "generating": "生成...",
+      "input_placeholder": "プロンプトを入力してください",
+      "quick_start": {
+        "binary_tree": "二分木を実装し、挿入、削除、および検索操作を含める",
+        "calculator": "電卓",
+        "e-commerce_page": "eコマースプラットフォームのホームページ",
+        "exchange_rate_calculator": "為替レートコンバーター",
+        "longest_common_substring": "2つの文字列の最も長い共通部分列を見つけるための関数を書く",
+        "personal_finance_dashboard": "パーソナルファイナンスダッシュボード",
+        "quick_sort": "高速ソートを実現するアルゴリズム",
+        "shortest_path_algorithm": "最短経路を見つけるアルゴリズムを実装する"
+      }
+    },
+    "pk_result": {
+      "left_label": "モデルA：",
+      "left_placeholder": "モデルa",
+      "right_placeholder": "モデルb"
+    },
+    "result": {
+      "code": "コード",
+      "failed": "モデルは生成できませんでした",
+      "lock_code": "読むだけです",
+      "model": "モデルA：",
+      "preview": "プレビュー",
+      "run_code_result": "実行結果",
+      "unlock_code": "編集を許可します"
+    },
+    "title": "どのLLMコードが優れていますか？",
+    "vote": {
+      "error": {
+        "update_leaderboard_failed": "ランキングの更新に失敗しました"
+      },
+      "model_left": "モデルA：",
+      "model_right": "モデルB：",
+      "skip": "無視する",
+      "vote_description": "どちらが最高ですか？",
+      "vote_left": "A型の方が良い",
+      "vote_right": "B型の方が良い"
+    }
+  },
+  "pk_history": {
+    "loading": "読み込み...",
+    "modelA": "モデルA：",
+    "modelB": "モデルB：",
+    "no_records": "まだ記録はありません",
+    "pagination": {
+      "more_pages": "その他のページ",
+      "next": "次のページ",
+      "previous": "前のページ"
+    },
+    "prompt": "入力プロンプト：",
+    "title": "歴史",
+    "tooltip": "歴史",
+    "type": "PKシナリオ："
+  }
+}

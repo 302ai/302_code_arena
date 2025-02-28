@@ -1,0 +1,137 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "github_hyperlink": {
+        "label": "GitHub仓库链接"
+      },
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "代码竞技场"
+    },
+    "tabs": {
+      "leaderboard": "排行榜",
+      "modelPk": "模型PK"
+    }
+  },
+  "leaderBoard": {
+    "appearances": "出场次数",
+    "creator": "创建者",
+    "empty": "暂无排行榜数据",
+    "name": "名称",
+    "rank": "排名",
+    "score": "得分",
+    "winRate": "胜率"
+  },
+  "modelPk": {
+    "description": "AI模型实时竞争，看看谁的代码能力更胜一筹。",
+    "model_select": {
+      "noResultsFound": "未找到模型",
+      "random": "随机",
+      "searchModels": "搜索模型...",
+      "selectModel": "选择模型"
+    },
+    "pk_form": {
+      "error": {
+        "generate_failed": "代码生成失败，请重新尝试",
+        "no_model": "缺少LLM模型",
+        "no_prompt": "缺少提示词",
+        "no_type": "缺少生成代码类型"
+      },
+      "generate": "代码大战",
+      "generating": "生成中...",
+      "input_placeholder": "请输入提示",
+      "quick_start": {
+        "binary_tree": "实现一个二叉树，包含插入、删除和查找等操作",
+        "calculator": "计算器",
+        "e-commerce_page": "电商平台首页",
+        "exchange_rate_calculator": "汇率转换器",
+        "longest_common_substring": "写一个函数，实现寻找两个字符串最长的公共子串",
+        "personal_finance_dashboard": "个人理财仪表板",
+        "quick_sort": "实现快速排序的算法",
+        "shortest_path_algorithm": "实现一个最短路径的寻路算法"
+      }
+    },
+    "pk_result": {
+      "left_label": "模型A：",
+      "left_placeholder": "模型A",
+      "right_placeholder": "模型B"
+    },
+    "result": {
+      "code": "代码",
+      "failed": "该模型生成失败",
+      "lock_code": "只读",
+      "model": "模型A：",
+      "preview": "预览",
+      "run_code_result": "运行结果",
+      "unlock_code": "允许编辑"
+    },
+    "title": "哪个LLM代码更好？",
+    "vote": {
+      "error": {
+        "update_leaderboard_failed": "排行榜更新失败"
+      },
+      "model_left": "模型A：",
+      "model_right": "模型B：",
+      "skip": "跳过",
+      "vote_description": "哪一个做的最好？",
+      "vote_left": "模型A更好",
+      "vote_right": "模型B更好"
+    }
+  },
+  "pk_history": {
+    "loading": "正在加载...",
+    "modelA": "模型A：",
+    "modelB": "模型B：",
+    "no_records": "暂无记录",
+    "pagination": {
+      "more_pages": "更多页面",
+      "next": "下一页",
+      "previous": "上一页"
+    },
+    "prompt": "输入内容：",
+    "title": "历史记录",
+    "tooltip": "历史记录",
+    "type": "PK场景："
+  }
+}
