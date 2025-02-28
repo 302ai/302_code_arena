@@ -34,7 +34,7 @@ export type PkStore = {
 const defaultPkStore: PkStore = {
   id: "",
   prompt: "",
-  type: SupportedType.web,
+  type: SupportedType.html,
   leftApp: {
     status: "idle",
     isLoading: false,

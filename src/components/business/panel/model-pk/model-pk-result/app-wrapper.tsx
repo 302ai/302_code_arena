@@ -192,6 +192,18 @@ export const AppWrapper = memo(function AppWrapper({
             </div>
           </TabsContent>
         )}
+      {status === "success" && type === SupportedType.html && (
+        <TabsContent
+          value="preview"
+          className="rounded-md border border-border p-2 data-[state=inactive]:hidden"
+        >
+          <iframe
+            srcDoc={trimmedCode}
+            className="aspect-square h-full w-full"
+            sandbox="allow-scripts allow-same-origin"
+          />
+        </TabsContent>
+      )}
       <SandpackProvider
         key={result}
         files={sandpackFiles}
@@ -205,40 +217,39 @@ export const AppWrapper = memo(function AppWrapper({
         }}
         {...sharedProps}
       >
-        {status === "success" &&
-          (type === SupportedType.react || type === SupportedType.html) && (
-            <TabsContent
-              value="preview"
-              forceMount
+        {status === "success" && type === SupportedType.react && (
+          <TabsContent
+            value="preview"
+            forceMount
+            className={cn(
+              "w-full rounded-md border border-border p-2 data-[state=inactive]:hidden",
+              isFullscreen && "!fixed inset-0 z-[51] !m-0 !border-0 !p-0"
+            )}
+          >
+            <SandpackPreview
+              key={trimmedCode}
+              showNavigator={false}
+              showOpenInCodeSandbox={true}
+              showRefreshButton={true}
+              showRestartButton={false}
               className={cn(
-                "w-full rounded-md border border-border p-2 data-[state=inactive]:hidden",
-                isFullscreen && "!fixed inset-0 z-[51] !m-0 !border-0 !p-0"
+                "aspect-square w-full",
+                isFullscreen && "!aspect-auto !h-screen"
+              )}
+            />
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsFullscreen(!isFullscreen)}
+              className={cn(
+                "absolute right-2 top-12 text-muted-foreground",
+                isFullscreen && "right-4 top-4"
               )}
             >
-              <SandpackPreview
-                key={trimmedCode}
-                showNavigator={false}
-                showOpenInCodeSandbox={true}
-                showRefreshButton={true}
-                showRestartButton={false}
-                className={cn(
-                  "aspect-square w-full",
-                  isFullscreen && "!aspect-auto !h-screen"
-                )}
-              />
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setIsFullscreen(!isFullscreen)}
-                className={cn(
-                  "absolute right-2 top-12 text-muted-foreground",
-                  isFullscreen && "right-4 top-4"
-                )}
-              >
-                {isFullscreen ? <Minimize2 /> : <Fullscreen />}
-              </Button>
-            </TabsContent>
-          )}
+              {isFullscreen ? <Minimize2 /> : <Fullscreen />}
+            </Button>
+          </TabsContent>
+        )}
         <TabsContent
           value="code"
           forceMount

@@ -43,7 +43,7 @@ export const GLOBAL = {
     SUPPORTED: [
       {
         text: "calculator",
-        type: "web",
+        type: "html",
         prompt: {
           zh: "计算器",
           en: "Calculator",
@@ -52,7 +52,7 @@ export const GLOBAL = {
       },
       {
         text: "personal_finance_dashboard",
-        type: "web",
+        type: "html",
         prompt: {
           zh: "个人理财仪表板",
           en: "Personal finance dashboard",
@@ -61,7 +61,7 @@ export const GLOBAL = {
       },
       {
         text: "e-commerce_page",
-        type: "web",
+        type: "html",
         prompt: {
           zh: "电商平台首页",
           en: "E-commerce platform homepage",
@@ -70,7 +70,43 @@ export const GLOBAL = {
       },
       {
         text: "exchange_rate_calculator",
-        type: "web",
+        type: "html",
+        prompt: {
+          zh: "汇率转换器",
+          en: "Exchange rate converter",
+          ja: "為替レートコンバーター",
+        },
+      },
+      {
+        text: "calculator",
+        type: "react",
+        prompt: {
+          zh: "计算器",
+          en: "Calculator",
+          ja: "計算機",
+        },
+      },
+      {
+        text: "personal_finance_dashboard",
+        type: "react",
+        prompt: {
+          zh: "个人理财仪表板",
+          en: "Personal finance dashboard",
+          ja: "パーソナルファイナンスダッシュボード",
+        },
+      },
+      {
+        text: "e-commerce_page",
+        type: "react",
+        prompt: {
+          zh: "电商平台首页",
+          en: "E-commerce platform homepage",
+          ja: "eコマースプラットフォームのホームページ",
+        },
+      },
+      {
+        text: "exchange_rate_calculator",
+        type: "react",
         prompt: {
           zh: "汇率转换器",
           en: "Exchange rate converter",
