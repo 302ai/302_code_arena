@@ -2,13 +2,13 @@
 
 <p align="center">コード競技場では、ランダムまたは手動で2つのAIモデルを選択して同時にコードを生成し、より良い結果のモデルに投票し、投票結果に基づいて個人ランキングを生成することができます。</p>
 
-<p align="center"><a href="https://302.ai/ja/tools/codearena/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/59" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_Code_Arena_jp.png)
 
-[302.AI](https://302.ai/ja/)の[コード競技場](https://302.ai/ja/tools/codearena/)のオープンソース版です。
+[302.AI](https://302.ai/ja/)の[コード競技場](https://302.ai/product/detail/59)のオープンソース版です。
 302.AIに直接ログインすることで、コード不要、設定不要のオンライン体験が可能です。
 あるいは、このプロジェクトをニーズに合わせてカスタマイズし、302.AIのAPI KEYを統合して、自身でデプロイすることもできます。
 
