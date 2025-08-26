@@ -2,13 +2,13 @@
 
 <p align="center">代码竞技场可以随机或自选两个AI模型同时生成代码，投票选择效果更佳的模型，根据投票结果生成个人排行榜。</p>
 
-<p align="center"><a href="https://302.ai/tools/codearena/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/59" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_Code_Arena.png)
 
-来自[302.AI](https://302.ai)的[代码竞技场](https://302.ai/tools/codearena/)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
+来自[302.AI](https://302.ai)的[代码竞技场](https://302.ai/product/detail/59)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
 在模型PK中提供web、python等多种编程语言选择，根据输入的描述随机或自选两个模型进行实时代码大战，看看谁的代码能力更胜一筹。
